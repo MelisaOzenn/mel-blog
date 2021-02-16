@@ -2,20 +2,21 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
+  border-top: 10px solid #D30079;
   border-bottom: 1px solid $grey-color-light;
-  min-height: $spacing-unit * 1.865;
+  min-height: $spacing-unit * 2.5;
 
   // Positioning context for the mobile navigation icon
   position: relative;
 }
 
 .site-title {
-  @include relative-font-size(1.625);
+  @include relative-font-size(3); //1.625
   font-weight: 300;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
+  margin-top: 10px;
   float: left;
 
   &,
@@ -26,6 +27,7 @@
 
 .site-nav {
   float: right;
+  margin-top: 10px;
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
@@ -39,6 +41,7 @@
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
+
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
@@ -90,6 +93,7 @@
 
     .page-link {
       display: block;
+
       padding: 5px 10px;
 
       &:not(:last-child) {
@@ -192,6 +196,7 @@
   margin-left: 0;
   list-style: none;
 
+
   > li {
     margin-bottom: $spacing-unit;
   }
@@ -220,6 +225,7 @@
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
+
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
