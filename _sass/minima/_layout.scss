@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-  border-top: 10px solid #D30079;
+  border-top: 10px solid #FFA3B8;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 2.5;
 
@@ -18,6 +18,7 @@
   margin-bottom: 0;
   margin-top: 10px;
   float: left;
+  text-decoration: none;
 
   &,
   &:visited {

@@ -16,7 +16,7 @@ dl, dd, ol, ul, figure {
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
-  background-color: #FFFCF4;
+  background-color: #fffbfa;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -112,7 +112,7 @@ a {
 
   &:hover {
     transition: 1s;
-    color: #D30079;
+    color: #821D30;
     text-decoration: underline;
   }
 
